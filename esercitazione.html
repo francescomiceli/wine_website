@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vineria</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+
+    .cover-image{ height: 350px; width: 100%; background: url(img/img-1.jpeg) no-repeat center -100px;block-size: cover; margin-top: -35px; position: relative; z-index: -1;}
+    .bottle{position: absolute; left: 10%; width: 110px; bottom: 8px;}
+    .card-text{background: #eee;  border-radius: 30px}
+    .card-text p{padding: 20px;}
+    .card-text__image{height: 280px;  position: relative; border-radius: 30px 30px 0 0;}
+    .card-text__image h3{position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; z-index: 1;}
+    .card-text__image::after{
+      content: ''; left: 0; bottom: 0; position: absolute; width: 100%; height: 100px; z-index: 0;
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); 
+    }
+
+    .card-text .button{margin-bottom: -50px;}
+
+    .grid--full{ max-width: 100%;}
+
+    .media-text .col-50{min-height: 350px;}
+
+  </style>
+
+
+</head>
+<body>
+
+  <div class="header">
+
+    <a href="" class="header__logo"> LOGO </a>
+
+    <ul class="header__menu">
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+
+  </div>
+
+
+  <div class="grid grid--center text-center pt-4">
+    <div class="col-80">
+      <p>Dal 2000</p>
+      <h1 class="text-2">Accompagniamo gli importatori di vino italiano nei mondi delle cantine produttrici e dei loro splendidi territori d’origine</h1>
+      <p>Da oltre 20 anni costruiamo rapporti tra i produttori di grandi vini e distillati Made in Italy e gli importatori di vino italiano all’estero, per portare prodotti d’eccellenza in tutta Europa e nel mondo. Uniamo professionalità, positività e passione, tratti distintivi che rendono unico l’incontro tra la domanda e l’offerta nella vendita di vini internazionale.</p>
+
+      <a href="#" class="button mt-2">Scopri di più</a>
+    </div>
+  </div>
+
+
+  <div class="cover-image">
+    <img src="img/img-2.png" class="bottle" alt="">
+  </div>
+
+  <div class="grid mt-3 mb-3">
+    <div class="col-50">
+      <div class="card-text text-center">
+      <div class="card-text__image" style="background: url(img/img-1.jpeg) no-repeat center center; background-size:cover; color: #fff">
+        <h3 class="text-2">Titolo</h3>
+      </div>
+        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum illum vel natus commodi id hic at nobis voluptates nam in vitae vero nemo. Quaerat, neque nihil? Porro, at laboriosam.</p>
+        <a href="#" class="button">Scopri di più</a>
+      </div>
+    </div>
+
+    <div class="col-50">
+      <div class="card-text text-center">
+      <div class="card-text__image" style="background: url(img/img-1.jpeg) no-repeat center center; background-size:cover; color: #fff">
+        <h3 class="text-2">Titolo</h3>
+      </div>
+        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum illum vel natus commodi id hic at nobis voluptates nam in vitae vero nemo. Quaerat, neque nihil? Porro, at laboriosam.</p>
+        <a href="#" class="button">Scopri di più</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="media-text">
+    <div class="grid grid--full">
+      <div class="col-50" style="background: url(img/img-1.jpeg) no-repeat center center; background-size:cover; color: #fff">
+      </div>
+      <div class="col-50 v-center">
+        <div class="p-3">
+          <h3 class="text-2">Titolo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum illum vel natus commodi id hic at nobis voluptates nam in vitae vero nemo. Quaerat, neque nihil? Porro, at laboriosam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="media-text">
+    <div class="grid grid--full">
+      <div class="col-50 v-center">
+        <div class="p-3">
+          <h3 class="text-2">Titolo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum illum vel natus commodi id hic at nobis voluptates nam in vitae vero nemo. Quaerat, neque nihil? Porro, at laboriosam.</p>
+        </div>
+      </div>
+      <div class="col-50" style="background: url(img/img-1.jpeg) no-repeat center center; background-size:cover; color: #fff">
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="footer">
+    <div class="grid">
+      <div class="col-25">
+        <h3>Footer info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit temporibus quas sapiente excepturi praesentium dolore earum, blanditiis quibusdam et itaque non repellat illum, distinctio enim soluta culpa officia! Ex, dolore.</p>
+      </div>
+      <div class="col-25">
+        <h3>Footer info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit temporibus quas sapiente excepturi praesentium dolore earum, blanditiis quibusdam et itaque non repellat illum, distinctio enim soluta culpa officia! Ex, dolore.</p>
+      </div>
+      <div class="col-25">
+        <h3>Footer info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit temporibus quas sapiente excepturi praesentium dolore earum, blanditiis quibusdam et itaque non repellat illum, distinctio enim soluta culpa officia! Ex, dolore.</p>
+      </div>
+      <div class="col-25">
+        <h3>Footer info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit temporibus quas sapiente excepturi praesentium dolore earum, blanditiis quibusdam et itaque non repellat illum, distinctio enim soluta culpa officia! Ex, dolore.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
